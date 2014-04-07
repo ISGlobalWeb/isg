@@ -46,7 +46,7 @@
     </ul>
     </div>-->
     </li>
-    <li><a href="<?php echo GLOBAL_PATH;?>/portfolio.php">Portfolio </a></li>
+    <li><a href="<?php echo GLOBAL_PATH;?>/portfolio-new.php">Portfolio </a></li>
     <li><a href="<?php echo GLOBAL_PATH;?>/contact.php">Contact Us</a></li>
   </ul>
 </aside>

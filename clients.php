@@ -21,13 +21,11 @@
       document.createElement('footer');
 </script>
 <!-- IE 6/7/8/9 Fix Script Ends Here-->
-<script src="<?php echo GLOBAL_PATH;?>/js/scroll-jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo GLOBAL_PATH;?>/js/jquery-1.10.1.js"></script>
 <script src="<?php echo GLOBAL_PATH;?>/js/tinynav.min.js"></script>
 <script>
-  $.noConflict();
-jQuery( document ).ready(function($) {
-
-      // TinyNav.js 1
+$(document).ready(function() {
+  // TinyNav.js 1
       $('#nav').tinyNav({
         active: 'selected',
         label: 'Menu'
@@ -68,18 +66,22 @@ jQuery( document ).ready(function($) {
         customised to suit your business</div>
       <div class="client_logo">
         <ul>
-          <li> <img src="images/brlets_logo.jpg" alt="Benham and Reeves"></li>
-          <li> <img src="images/hiab_client_logo.jpg" alt="Hialbarsha Dubai"></li>
-            <li> <img src="images/isa_client_logo.jpg" alt="Hialbarsha Dubai"></li>
-              <li><img src="images/retail_client_logo.jpg"></li>
-          <li> <img src="images/isd_client_logo.jpg" alt="Hialbarsha Dubai"></li>
-          <li> <img src="images/isre_client_logo.jpg" alt="Zandvoort Hotel"></li>
-                  <li><img src="images/guru_client_logo.jpg"></li>
-            <li><img src="images/zandvoort_client_logo.jpg"></li>
-          <li><img src="images/anim_client_logo.jpg"></li>
-            <li><img src="images/sla_client_logo.jpg"></li>
-            <li><img src="images/rentals_client_logo.jpg"></li>
-            <li><img src="images/short-stay_client_logo.jpg"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/hiab_client_logo.jpg" alt="Hialbarsha Dubai"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/brlets_logo.jpg" alt="Benham and Reeves"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/chargeyouurglass-logo.jpg" alt="Charge your glasses"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/gharana-logo.jpg" alt="Gharana"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/royal-buddha.jpg" alt="The Royal Buddha"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/odc-logo.jpg" alt="outdoor catering"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/vidals-logo.jpg" alt="Vidals Salon"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/isa_client_logo.jpg" alt="isa"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/retail_client_logo.jpg" alt="retail furniture"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/isd_client_logo.jpg" alt="instyle direct"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/isre_client_logo.jpg" alt="isre dubai"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/guru_client_logo.jpg" alt="guru design"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/anim_client_logo.jpg" alt="anim"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/sla_client_logo.jpg" alt="shortlet apartment"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/rentals_client_logo.jpg" alt="rentals london"></li>
+          <li><img src="<?php echo GLOBAL_PATH;?>/images/short-stay_client_logo.jpg" alt="apart hotel"></li>
         </ul>
       </div>
       </div>

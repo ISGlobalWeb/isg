@@ -12,7 +12,8 @@
 <link rel="shortcut icon" href="favicon.ico"/>
 <link rel="apple-touch-icon" href="favicon.ico"/>
 <link href="<?php echo GLOBAL_PATH;?>/css/style.css" rel="stylesheet" type="text/css">
-<script src="<?php echo GLOBAL_PATH;?>/js/scroll-jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo GLOBAL_PATH;?>/js/jquery-1.10.1.js"></script>
+
 <!-- IE 6/7/8/9 Fix Script Starts Here-->
 <script type="text/javascript">
       document.createElement('figure');
@@ -32,7 +33,8 @@
 <script src="<?php echo GLOBAL_PATH;?>/js/allinone_contentSlider.js" type="text/javascript"></script>
 <script>
 		jQuery(function() {
-         	jQuery('#allinone_contentSlider_common').allinone_contentSlider({
+
+			jQuery('#allinone_contentSlider_common').allinone_contentSlider({
 				skin: 'common',
 				width: 1920,
 				height: 600,
@@ -42,6 +44,8 @@
 				showPreviewThumbs:false,
 				autoHideNavArrows:false
 			});		
+			
+			
 		});
 	</script>
 <!-- Slider JS Ends Here-->
@@ -54,7 +58,7 @@
 		animation: "fade",
 		directionNav:true,
 		controlNav:false,
-		smoothHeight: true,
+		smoothHeight: false,
 		animationLoop:true,
 		slideshowSpeed: 3000,		
 		slideToStart: 0,
@@ -66,10 +70,8 @@
  </script>
 <script src="<?php echo GLOBAL_PATH;?>/js/tinynav.min.js"></script>
 <script>
-  $.noConflict();
-jQuery( document ).ready(function($) {
-
-      // TinyNav.js 1
+$(document).ready(function() {
+  // TinyNav.js 1
       $('#nav').tinyNav({
         active: 'selected',
         label: 'Menu'

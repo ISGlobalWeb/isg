@@ -215,3 +215,9 @@
 	display:none;
 }
 
+
+@media only screen and (max-width:320px){ 
+.allinone_contentSlider_text_line{ right:0!important; top:60px !important; left:inherit !important;}
+
+
+}

@@ -21,14 +21,11 @@
       document.createElement('footer');
 </script>
 <!-- IE 6/7/8/9 Fix Script Ends Here-->
-<script src="<?php echo GLOBAL_PATH;?>/js/scroll-jquery.js" type="text/javascript"></script>
-
+<script type="text/javascript" src="<?php echo GLOBAL_PATH;?>/js/jquery-1.10.1.js"></script>
 <script src="<?php echo GLOBAL_PATH;?>/js/tinynav.min.js"></script>
-  <script>
-  $.noConflict();
-jQuery( document ).ready(function($) {
-
-      // TinyNav.js 1
+<script>
+$(document).ready(function() {
+  // TinyNav.js 1
       $('#nav').tinyNav({
         active: 'selected',
         label: 'Menu'
@@ -64,9 +61,12 @@ jQuery( document ).ready(function($) {
     </section>
   </article>
   <article class="max_95 maincontent">
-    <aside class="alignleft col_70 vertical_20">
-      <form onSubmit="return check_contactus(event)" id="contactus" name="contactus" action="http://www.isglobalweb.com/submitcontactus.php" method="post" class="contact bottom-arrow">
-        <p>Want to meet us face to face? We'd love to meet up to show you our work & explain how we can make your business better. Get in touch with us by contacting any of the offices mentioned below or submit this form & we'll get back to you.</p>
+    <aside class="alignleft col_72 vertical_20">
+    <div class="contact">
+      <form onSubmit="return check_contactus(event)" id="contactus" name="contactus" action="http://www.isglobalweb.com/submitcontactus.php" method="post">
+      <p class="green">Please complete the form and a member of our dedicated lettings team will respond to your enquiry.</p>
+      <fieldset style="border: #ddd 1px solid; margin:10px 0 0; background:#f4f4f4;">
+        <legend><strong>User Information</strong></legend>
         <div class="con_row">
           <div class="frm-left">
             <label>Initial* : </label>
@@ -140,10 +140,16 @@ jQuery( document ).ready(function($) {
             <textarea rows="5" cols="" id="message" name="message"></textarea>
           </div>
         </div>
-        <div class="con_row_submit">
-          <input type="submit" value="Submit" class="greenBtn">
+        
+        <div class="con_row">
+            <div class="frm-left">
+           &nbsp;
+          </div>
+           <div class="frm-right"><input type="submit" value="Submit" class="greenBtn"></div>
         </div>
+        </fieldset>
       </form>
+      </div>
     </aside>
     <aside class="alignright vertical_20">
  <?php include "include/cta-links.php";?>

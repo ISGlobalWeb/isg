@@ -21,25 +21,17 @@
       document.createElement('footer');
 </script>
 <!-- IE 6/7/8/9 Fix Script Ends Here-->
-<script src="<?php echo GLOBAL_PATH;?>/js/scroll-jquery.js" type="text/javascript"></script>
-<script type='text/javascript' src='<?php echo GLOBAL_PATH;?>/js/jquery.js'></script>
-<script type="text/javascript">
-var templateDir = "<?php echo GLOBAL_PATH;?>"
-</script>
+<script type="text/javascript" src="<?php echo GLOBAL_PATH;?>/js/jquery-1.10.1.js"></script>
 <script src="<?php echo GLOBAL_PATH;?>/js/tinynav.min.js"></script>
 <script>
-  $.noConflict();
-jQuery( document ).ready(function($) {
-
-      // TinyNav.js 1
+$(document).ready(function() {
+  // TinyNav.js 1
       $('#nav').tinyNav({
         active: 'selected',
         label: 'Menu'
       });
     });
   </script>
-<script type='text/javascript' src='<?php echo GLOBAL_PATH;?>/js/jquery.nav.js'></script>
-<script type='text/javascript' src='<?php echo GLOBAL_PATH;?>/js/plugins/jquery.parallax.js'></script>
 <script type='text/javascript' src='<?php echo GLOBAL_PATH;?>/js/jquery.hoverdir.js'></script>
 <script type='text/javascript' src='<?php echo GLOBAL_PATH;?>/js/omni.js'></script>
 </head>

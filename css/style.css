@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, input, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, input, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -95,6 +95,7 @@ p {line-height:1.6em;}
 .top_outer{ background:#f1f1f3;}
 .max_95{ width:95%; margin:0 auto;}
 .logo{ float:left;}
+
 .nav{ float:right; margin:20px 0 0;}
 .nav li{ float:left; text-align:center; position:relative; line-height:30px;}
 .nav li a{padding:0 20px; display:block;}
@@ -118,7 +119,7 @@ p {line-height:1.6em;}
 .col_58 p{  position:relative; padding:0 30px;} 
 .col_50{ width:50%;}
 .col_40{ width:40%;}
-.col_70{ width:76%;}
+.col_70{ width:78%;}
 .col_72{ width:72%;}
 .blog{ width:77%;}
 .subscribe{ width:22%;}
@@ -191,14 +192,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', end
 -webkit-box-shadow: inset 0px 0px 50px 0px #f4f4f4,0px 3px 0px 0px #799841;
 -moz-box-shadow: inset 0px 0px 50px 0px #f4f4f4,0px 3px 0px 0px #799841;
 -o-box-shadow: inset 0px 0px 50px 0px #f4f4f4,0px 3px 0px 0px #799841;}
-.sign_form input[type="text"]{ -moz-box-shadow:    inset 0 0 10px #666; 
-   -webkit-box-shadow: inset 0 0 10px #666;
-   box-shadow:         inset 0 0 10px #666; border-radius:8px; padding:10px 5px; width:95%;}
+.sign_form input[type="text"]{ -moz-box-shadow:    inset 0 0 4px #eee; 
+   -webkit-box-shadow: inset 0 0 4px #eee;
+   box-shadow:         inset 0 0 4px #eee; border-radius:8px; padding:10px 5px; width:95%;}
    
-.sign_form input[type="submit"],.greenBtn{ background:#acdb5a; font-weight:bold; font-size:130%; border-radius:8px; padding:8px 2%; cursor:pointer;box-shadow: inset 0px 0px 50px 0px #a6d454,0px 3px 0px 0px #799841; 
+.sign_form input[type="submit"],.greenBtn{ background:#acdb5a; font-weight:bold; font-size:130%; border-radius:8px; padding:8px 20px; cursor:pointer;box-shadow: inset 0px 0px 50px 0px #a6d454,0px 3px 0px 0px #799841; 
 -webkit-box-shadow: inset 0px 0px 50px 0px #a6d454,0px 3px 0px 0px #799841;
 -moz-box-shadow: inset 0px 0px 50px 0px #a6d454,0px 3px 0px 0px #799841;
--o-box-shadow: inset 0px 0px 50px 0px #a6d454,0px 3px 0px 0px #799841; margin:auto; width:80%; color:#000; text-align:center;}
+-o-box-shadow: inset 0px 0px 50px 0px #a6d454,0px 3px 0px 0px #799841; color:#000; text-align:center;}
 .sign_form p{ margin:5px 0; text-align:center;} 
  .greenBtn{ display:block;}  
 .btn{ background:#acdb5a; font-weight:bold; border-radius:8px; padding:10px; cursor:pointer;box-shadow: inset 0px 0px 50px 0px #a6d454,0px 3px 0px 0px #799841; font-size:20px; display:table;
@@ -271,16 +272,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', end
 	.span6 {
 width: 23%; float:left;  text-align:center; margin:0 10px 0 0;}
 
-.portfolio-item{ float:left; width:43%; margin:10px 10px 10px 0; background:#f4f4f4; padding:20px; height:42em; position:relative;}
+.portfolio-item{ float:left; width:48%; margin:10px 10px 10px 0; position:relative;}
 .project-info-box{ display:table; width:100%; border-bottom:1px #ddd solid;}
 .project-info-box li{ float:left; width:48%; font-size:12px; margin:10px 0;}
 
 .blackHD{ font-size:16px; font-weight:bold; color:#83b730; padding:10px 0;}
 .launch_outer{ margin:20px auto; display:table; width:100%;}
-.contact{ padding:20px;  background:#f4f4f4;}
 .con_row {
 	width:90%;
-	margin:20px 0 0;
+	margin:15px 0 0;
 	display:inline-table;
 }
 
@@ -412,13 +412,71 @@ width: 23%; float:left;  text-align:center; margin:0 10px 0 0;}
 	width:100%;
 }
 
-.client_logo li{ width:22%; float:left; margin:0 20px 20px 0; background:#fff; border-radius:4px; padding:30px;  cursor:pointer;box-shadow: inset 0px 0px 50px 0px #eee,0px 3px 0px 0px #799841; 
--webkit-box-shadow: inset 0px 0px 50px 0px #eee,0px 3px 0px 0px #799841;
--moz-box-shadow: inset 0px 0px 50px 0px #eee,0px 3px 0px 0px #799841;
--o-box-shadow: inset 0px 0px 50px 0px #eee,0px 3px 0px 0px #799841;}
+.client_logo li{ width:17.5%; min-height:70px; float:left; margin:0 10px 20px 0; background:#fff; border-radius:4px; padding:30px 30px 20px;  cursor:pointer;box-shadow: inset 0px 0px 50px 0px #fff,0px 3px 0px 0px #799841; 
+-webkit-box-shadow: inset 0px 0px 50px 0px #fff,0px 3px 0px 0px #799841;
+-moz-box-shadow: inset 0px 0px 50px 0px #fff,0px 3px 0px 0px #799841;
+-o-box-shadow: inset 0px 0px 50px 0px #fff,0px 3px 0px 0px #799841; border:#eee 1px solid;}
     /* styles for mobile */
+	.client_logo li img{ width:100%;}
 	
-@media only screen and (max-width:1280px){ .client_img li{ margin-left:25px;}}
+	
+	.span12{ width:25%; float:left; margin:0 0 20px;
+position: relative;
+}
+.span12 .service{ margin:0 10px 0 0; box-shadow: inset 0px 0px 50px 0px #fff,0px 3px 0px 0px #799841; 
+-webkit-box-shadow: inset 0px 0px 50px 0px #fff,0px 3px 0px 0px #799841;
+-moz-box-shadow: inset 0px 0px 50px 0px #fff,0px 3px 0px 0px #799841;
+-o-box-shadow: inset 0px 0px 50px 0px #fff,0px 3px 0px 0px #799841;border-radius:4px; overflow:hidden; border:#eee 1px solid; background:#fff !important;}
+.span12 .front{   padding:10px !important; background:none !important;}
+
+.span12 .back{ padding:0!important; width:100%; text-align:center; }
+
+
+.prj-title{ font-size:14px; padding:10% 0; font-weight:bold; color:#333;}
+.prj-link{ color:#333;}
+
+
+<!-- back to top css -->
+
+#fixed-bar {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+	background:none;
+    z-index: 100; right:0;
+}
+#fixed-bar a {
+    color: white;
+    text-decoration: none;
+}
+#bar-inner {
+    width: 1360px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+}
+#bar-inner img{ float:right;}
+
+<!-- back to top css -->
+
+.contact{}
+.contact legend{ margin:0 0 0 5px;background: #fff;
+padding: 5px 10px;
+border: #ddd 1px solid; color:#83b730; font-size:14px;}
+.col_768{ width:768px;}
+.port-links { margin:20px 0; border-bottom:#ddd 1px solid;}
+
+.port-links li{ float:left;}
+.port-links a{ color:#666; padding:10px; display:block;}
+.port-links a:hover{ color:#acdb5a;}
+
+.port-links li a.activeLink{ background:#acdb5a; color:#333;} 
+
+.hide{ display:none;}
+@media only screen and (max-width:1280px){ .client_img li{ margin-left:25px;}
+
+.col_70{ width:76%;}
+}
 @media screen and (max-width: 600px) {
        .tinynav {display:block; background:#acdb5a; border:#CCCCCC 1px solid; padding:10px;}
 	   .tinynav option{ background:#fff;}
@@ -433,6 +491,12 @@ width: 23%; float:left;  text-align:center; margin:0 10px 0 0;}
 .service_list li{ font-size:13px;}
 .blog{ width:68%;}
 .subscribe{ width:26%;}
+
+
+#fixed-bar {
+	background:url(../images/fancy_title_over.png) repeat;
+}	
+
 .flexslider .col_49{ display:none;}
 .flexslider .col_50{ width:100%;}
 .about_banner .alignright{ width:70%;}
@@ -440,7 +504,11 @@ width: 23%; float:left;  text-align:center; margin:0 10px 0 0;}
 .span6{ width:48%;}
 .col_72{ width:68%;}
 .portfolio-item{ width:auto; display:table; height:auto;}
+.portfolio-item img{ width:100%;}
 .col_70{ width:70%;}
+.client_logo li{ width:21%;}
+.span12{ width:33%;}
+
 }
 
 @media only screen and (max-width:768px){
@@ -465,12 +533,15 @@ width: 23%; float:left;  text-align:center; margin:0 10px 0 0;}
 .col_70{ width:100%; display:table;}
 .maincontent{ padding:0 0 20px;}
 .col_11{ display:none;}
+.span12{ width:50%;}
 }
 
 
 @media only screen and (max-width:640px){
 .about_banner img{ width:100%;}
+.col_768{ width:500px;}
 .span6{ float:none; width:100%;}
+.client_logo li{ width:36%; min-height:90px;}
 .btn a{ font-size:12px !important; padding:0 10px;}
 .client_img li{ width:30%;}
 .isa,.isd{ display:none;}
@@ -481,8 +552,23 @@ width: 23%; float:left;  text-align:center; margin:0 10px 0 0;}
 .alignauto p{ padding:0 }
 .alignauto span{ text-align:center;}
 .brc-left,.brc-right{ display:none !important;}
-.breadcrumbs ul{ line-height:inherit; padding:10px 0;}
+.breadcrumbs{ background:none;}
+.breadcrumbs ul{ line-height:inherit; padding:0; min-height:inherit;}
 .breadcrumbs li{ background:none; line-height:normal; padding:5px;}
 .service_list li span{ text-align:center; display:block;}
 .textElement12_commonFW,.textElement42_commonFW .banner a{ display:none !important;}
+.about_banner{ display:none;}
+.alpha_20{ padding:10px 0;}
+}
+
+@media only screen and (max-width:480px) {.client_logo li{ width:33%; min-height:54px;}
+.col_768{ width:100%;}
+.span12{ width:auto;}
+
+}
+@media only screen and (max-width:320px) {.client_logo li{ width:100%; min-height:inherit; float:none; padding:30px 0;}
+
+.logo img{ width:100%;}
+.port-links a{ font-size:10px; padding:4px;}
+
 }

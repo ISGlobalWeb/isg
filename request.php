@@ -21,11 +21,11 @@
       document.createElement('footer');
 </script>
 <!-- IE 6/7/8/9 Fix Script Ends Here-->
-<script src="<?php echo GLOBAL_PATH;?>/js/scroll-jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo GLOBAL_PATH;?>/js/jquery-1.10.1.js"></script>
 <script src="<?php echo GLOBAL_PATH;?>/js/tinynav.min.js"></script>
 <script>
-  $.noConflict();
-jQuery( document ).ready(function($) {
+$(document).ready(function() {
+  // TinyNav.js 1
       $('#nav').tinyNav({
         active: 'selected',
         label: 'Menu'
@@ -61,9 +61,12 @@ jQuery( document ).ready(function($) {
     </section>
   </article>
   <article class="max_95 maincontent">
-    <aside class="alignleft col_70 vertical_20">
-      <form onSubmit="return check_requestform(event)" name="request_quote" action="http://www.isglobalweb.com/submit-requestform.php" id="request_quote" method="post" class="contact">
+    <aside class="alignleft col_72 vertical_20">
+    <div class="contact">
+      <form onSubmit="return check_requestform(event)" name="request_quote" action="http://www.isglobalweb.com/submit-requestform.php" id="request_quote" method="post">
         <p class="green">If you would like to benefit from our services, then you can fill up the form below and send us your query. We will get back to you soon!</p>
+         <fieldset style="border: #ddd 1px solid; margin:10px 0 0; background:#f4f4f4;">
+        <legend><strong>Make Request</strong></legend>
         <div class="con_row">
           <div class="frm-left">
             <label>Name* :</label>
@@ -97,10 +100,16 @@ jQuery( document ).ready(function($) {
             <textarea name="message" id="message" rows="5" cols="" placeholder="Your Message"></textarea>
           </div>
         </div>
-        <div class="con_row_submit">
-          <input type="submit" value="Submit" class="greenBtn">
+        <div class="con_row">
+         <div class="frm-left">
+          &nbsp;
+          </div>
+          <div class="frm-right">
+          <input type="submit" value="Submit" class="greenBtn"></div>
         </div>
+        </fieldset>
       </form>
+      </div>
     </aside>
     <aside class="alignright vertical_20">
       <section class="cta-links">
